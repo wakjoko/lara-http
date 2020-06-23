@@ -1,0 +1,19 @@
+{
+    "name": "wakjoko/lara-http",
+    "description": "Provides v7's Http Client for older Laravel versions up to v6",
+    "license": "MIT",
+    "authors": [{
+        "name": "wakjoko",
+        "email": "wakjoko@gmail.com"
+    }],
+    "require": {
+        "php": ">=7.1.3",
+        "illuminate/support": "~5.8.0|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wakjoko\\LaraHttp\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+}
