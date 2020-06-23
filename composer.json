@@ -15,5 +15,15 @@
             "Wakjoko\\LaraHttp\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wakjoko\\LaraHttp\\ServiceProvider"
+            ],
+            "aliases": {
+                "LaraHttp": "Wakjoko\\LaraHttp\\Support\\Facades\\Http"
+            }
+        }
+    },
     "minimum-stability": "dev"
 }
