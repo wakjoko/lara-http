@@ -7,9 +7,7 @@
         "email": "wakjoko@gmail.com"
     }],
     "require": {
-        "php": ">=7.0",
-        "illuminate/support": ">=5.5",
-        "guzzlehttp/guzzle": "^6.3.1|^7.0"
+        "illuminate/support": ">=5.5"
     },
     "autoload": {
         "psr-4": {
