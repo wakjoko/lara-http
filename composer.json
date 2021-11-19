@@ -7,6 +7,7 @@
         "email": "wakjoko@gmail.com"
     }],
     "require": {
+        "guzzlehttp/guzzle": "^6|^7",
         "illuminate/support": ">=5.5"
     },
     "autoload": {
